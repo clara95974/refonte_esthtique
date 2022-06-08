@@ -1,0 +1,5 @@
+
+Lyes Slimani a fait la page Paris La Mer et retour (mer.html)
+Lisa a fait la page Qu'est-ce que le cyclo-club ? (cylo.html)
+Lesly a fait la page Tarifs et déplacements (Tarifs.html)
+Annaelle a fait la page Histoire du cyclo club (histoire_du_club.html)

@@ -1,0 +1,647 @@
+* { 
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body{
+    background-color: rgb(250, 250, 243);
+    display: flex; 
+    flex-direction:column; 
+    height:100vh;
+    background-image: url('../images/fillevelo_L170.svg');
+    background-size: contain;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #004365;
+    height: fit-content;
+    overflow: visible;
+    display: flex;
+}
+
+header div.headerdivision{
+    width: 60%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 20%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.imagenews{
+    width: 10%  ;
+    max-width: 100%;
+    height: fit-content;
+    object-fit: contain;
+    overflow: hidden;
+}
+.imagenews a{
+    width: 100%;
+    height: fit-content;
+}
+
+.imagenews img{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.headernav{
+    width: 100%;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style-position: inside;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+   }
+
+
+ul.navigation li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size:18px;
+    align-items: center;
+    color: white;
+    padding-right: 12px;
+    padding-left: 12px;
+    height: fit-content ;
+    text-align: center;
+    height: 100%;
+}
+
+ul.navigation a{
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size:18px;
+    align-items: center;
+    color: white;
+    height: fit-content ;
+    text-align: center;
+    height: 100%; 
+}
+ 
+
+
+
+ul.navigation li:hover{
+    background: #046ca0;
+    box-shadow: 3px 3px 5px  rgba(4, 108, 160, 0.80);
+    transition: 0.2s;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+
+main{
+    justify-items: center;
+    border: solid black;
+    border-radius: 12px;
+    padding: 3em;
+    height: fit-content;
+    position: relative;
+    width: 60%;
+    margin: 10px auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.469);
+    background-color: rgba(227, 227, 250, 1);
+    background-attachment: fixed;
+    overflow: visible;
+}
+
+div.newsRandonnee img{
+    float: left;
+    width: 55%;
+    padding-right: 10px;
+}
+
+div.newsRandonnee{
+    margin: 20px auto;
+    padding: 20px;
+    background-color: lightyellow;
+    border-radius: 12px;
+    display: flex;
+}
+
+div.newsText{
+    line-height: 1.5em;
+    text-align: center;
+    padding-left:20px;
+}
+
+
+
+main ul{
+    list-style-position: inside;
+}
+
+main div section:nth-child(2){
+    width: 1000px;
+    overflow: hidden;
+}
+
+.slogan{
+    max-width: 50%;
+    min-width: 20%;
+    
+}
+
+.espaceur{
+    flex-grow: 1;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    min-height: 7%;
+    height:fit-content ;
+    background: #013651;
+    margin-top: auto;
+
+}
+
+footer img {
+    max-width:100%;
+    max-height: 100%;
+    height:auto;
+    margin-top: 10px;
+}
+
+footer section{
+    justify-self: flex-end;
+    color: white;
+}
+
+.copyright{
+    margin: 0.5em auto;
+    height: fit-content;
+    overflow: hidden;
+}
+
+@media only screen and (max-width:1320px){
+
+    header{
+        min-height:7%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    main{
+        flex-grow: 1;
+        overflow-x: visible;
+    }
+    .navigation{
+        flex-wrap: wrap;
+    }
+    ul.navigation li{
+        padding-right: 6px;
+        padding-left: 6px;
+        padding-bottom: 5px;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    
+
+    @media only screen and (max-width: 850px){
+
+        .espaceur{
+            flex-grow: 0;
+        }
+
+        .newsRandonnee{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        div.newsRandonnee img {
+            padding-right: 0;
+        }
+        
+        
+
+        div.newsText{
+            padding-left: 0;
+        }
+
+        .slogan{
+            max-width: 100%;
+        }
+        main{
+            margin-top: 0;
+            margin-bottom: 0;
+            border-radius: 10p;
+            border-bottom: solid black;
+            border-top: 0;
+            overflow: visible;
+            width: 75%;
+        }
+
+        footer{
+            flex-direction: column;
+            align-items: center;
+            min-height: 12%;
+        }
+    }
+}
+
+/* PAGE DU CODE DE LYES PARIS LA MER */
+
+.mainparislamer{
+    line-height: 1.5em;
+}
+
+.titre{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.titre img{
+    width: 100%;
+    
+}
+
+.texteandimages{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textemer{
+    width: 50%;
+    line-height: 1.5em;
+}
+
+.imagesmer{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imagesmer img{
+    object-fit: contain;
+    
+    max-width: 50%;
+    height: auto;
+}
+
+.Organisation{
+    font-size: 150%;
+    text-transform: uppercase;
+    margin: 10px auto;
+    line-height: 1em;
+    overflow: hidden;
+}
+
+.randonnee{
+    font-size: 125%;
+    text-transform: uppercase;
+    color: darkblue;
+    padding: 10px 0;
+
+}
+
+.center{
+    text-align: center;
+    color: darkred;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 125%;
+    padding: 10px 0;
+}
+
+.kilometrage{
+    padding: 10px 0;
+}
+
+
+
+.endroitsvisites{
+    margin: 2em auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.endroitsvisites figure{
+    width: 50%;
+}
+
+.endroitsvisites figure img{
+    width: 95%;
+    height: auto;
+}
+
+.blue{
+    background-color: rgba(255, 255, 224, 0.571);
+    border-radius: 12px;
+    padding: 1em;
+    margin: 1em auto;
+}
+
+.line {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto;
+}
+
+.informations div{
+    /* width: 50%; */
+    margin: 1em 0 0;
+}
+
+.infotitre{
+    font-weight: bold;
+}
+
+.careful{
+    border: thick solid red;
+    padding: 1em;
+    background-color: rgba(139, 0, 0, 0.095);
+}
+
+
+@media only screen and (max-width:1320px){
+    .imagesmer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagesmer img{
+        max-width: 80%;
+    }
+
+    @media only screen and (max-width: 850px){
+
+        .texteandimages{
+            flex-direction: column;
+        }
+
+        .texteandimages div{
+            width: 100%;
+        }
+
+        .endroitsvisites{
+            flex-direction: column;
+        }
+
+        .endroitsvisites figure{
+            width: 100%;
+        }
+
+    }
+
+}
+
+
+/*debut histoire du club*/
+body.histoireDuClub td,th {
+    border: solid 1px black;
+    padding: 1em;
+}
+
+body.histoireDuClub table{
+    margin-bottom: 30px;
+    border: solid 2px black;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: lightgray;
+}
+
+body.histoireDuClub th{
+    background-color: lightgreen;
+}
+body.histoireDuClub figure{
+    margin-bottom: 30px;
+}
+
+body.histoireDuClub figcaption > a{
+    color:black;
+    text-decoration: none;
+}
+
+body.histoireDuClub h1, h3{
+    display: flex;
+    text-decoration-style: bold;
+    text-decoration: underline;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+body.histoireDuClub p{
+    line-height: 1.5em;
+}
+
+.histoireimage{
+    width: 100%;
+}
+/* fin d'histoire du club */
+
+
+/* Page de LISA */
+
+.pagelisa main{
+    line-height: 1.5em;
+}
+.texteimage{
+    overflow: visible;
+}
+.maphoto{
+    float: right;
+    padding-left: 1em;
+    height: 15em;
+}
+
+.main{
+    overflow-x: hidden;
+}
+
+.texteimage{
+    margin: 15px;
+    
+}
+.italic{
+    display: flex;
+    justify-content: center;
+    color: red;
+    text-align: justify;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+ol{
+
+    padding:0px 15PX;
+
+}
+.texteimage h1{
+    margin-bottom: 5px;
+    text-decoration: underline;
+    
+}
+p{
+    text-align: justify;
+}
+
+
+.textlogo{
+    padding: 40px;
+}                                                        
+.imageagauche{
+    float: left;
+    padding-right: 1em;
+
+}
+
+.titrelisa{
+    width: 100%;
+    margin: 1em auto;
+}
+
+.clique{
+    color: red;
+}
+.pp:hover{
+    color: red;
+}
+
+#photocentree{
+    display: flex;
+    padding: 1em;   
+}
+
+#partiegauche{
+    width: 50%;
+    padding-right: 1em;
+}
+
+#partiedroite{
+    width: 50%;
+}
+
+#partiedroite img{
+    width: 100%;
+    height: auto;
+}
+
+
+@media only screen and (max-width:1320px){
+    .maphoto{
+        width: 100%;
+        object-fit: cover;
+    }
+    @media only screen and (max-width: 850px){
+
+
+        .maphoto{
+            width: 100%;
+            margin: 5px auto;
+            object-fit: contain;
+            padding-left: 0;
+        }
+
+        .imageagauche{
+            width: 50%;
+            margin: 5px auto;
+            object-fit: contain;
+        }
+
+        .textimage h1{
+            display: flex;
+            justify-content: center
+        }
+
+        .texteimage{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #photocentree{
+            display: flex;
+            padding: 1em;   
+            flex-direction: column;
+        }
+
+        #partiegauche{
+            width: 100%;
+            padding-right: 1em;
+        }
+
+        #partiedroite{
+            width: 100%;
+        }
+
+        #partiedroite img{
+            width: 100%;
+            height: auto;
+        }
+
+    }
+
+}
+
+
+/* Page de Lesly */
+
+body.lesly table {
+    border-collapse: collapse;
+    border-radius: 20%;
+    empty-cells: show;
+    table-layout: auto;
+
+}
+
+body.lesly caption {
+    caption-side: bottom;
+    text-align: left;
+    color: red;
+
+}
+
+body.lesly td {
+    border: 1px solid black;
+    width: 20;
+}
+body.lesly body h4{
+    text-decoration: underline;
+    margin-left: 15px;
+    padding-bottom: 25px;
+
+}
+
+body.lesly thead {
+text-decoration: underline;
+color:  red;
+}
